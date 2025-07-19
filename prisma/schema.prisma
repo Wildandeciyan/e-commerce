@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// prisma/schema.prisma
->>>>>>> 7e00ed4 (Initial commit for e-commerce app)
 generator client {
   provider = "prisma-client-js"
 }
@@ -15,13 +11,9 @@ model Product {
   id          String   @id @default(uuid())
   name        String
   description String?
-  price       Decimal  @db.Decimal(10, 2)
+  price       Float
   imageUrl    String?
   category    String?
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7e00ed4 (Initial commit for e-commerce app)
