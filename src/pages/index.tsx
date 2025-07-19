@@ -1,5 +1,3 @@
-// src/pages/index.tsx
-
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
@@ -28,7 +26,7 @@ const HomePage: React.FC<HomePageProps> = ({ products, error }) => {
     <div>
       <Head>
         <title>My E-commerce App</title>
-        <meta name="description" content="A simple e-commerce application built with Next.js" />
+        <meta name="description" content="Web e-commerce sederhana dengan Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
